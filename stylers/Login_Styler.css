@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main{
+    position: fixed;
+    top: 0;left: 0;right: 0;bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form-login{
+    width: 600px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.514);
+}
+.heading{
+    color: rgb(0, 255, 0);
+    font-size: 30px;
+    padding: 30px 25px;
+    font-family: cursive;
+    text-align: center;
+    border-bottom: 1px solid #000;
+}
+.box,.box1{
+    padding: 20px 20px;
+}
+.box label{
+    color: paleturquoise;
+    font-size: 26px;
+}
+.box input{
+    color: red;
+    padding: 10px 5px;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.tbao p{
+    text-align: center;
+    color: rgb(255, 153, 0);
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.box1 .login{
+    background-color: yellow;
+    color: red;
+    padding: 8px 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+    width: 80px;
+}
+.box1 .login:hover{
+    background-color: red;
+    color: yellow;
+}
+.box1 a{
+    text-align: center;
+    font-size: 16px;
+    color: rgb(255,0,0);
+    text-decoration: none;
+    width: 80px;
+    padding: 8px 5px;
+    margin: 10px;
+    background-color: yellow;
+    border-radius: 10px;
+}
+.box1 a:hover{
+    background-color: green;
+}

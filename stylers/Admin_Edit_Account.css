@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+}
+#main .readonly{
+    opacity: 0.6;
+}
+#main .form-new{
+    width: 600px;
+    flex: 0 1 40%;
+    box-shadow: 2px 2px 5px 5px rgba(168, 117, 5, 0.575);
+}
+#main .form-new h2{
+    padding: 12px 0;
+    text-align: center;
+    color: palevioletred;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: 800;
+    /* text-shadow: 12px 2px 5px black; */
+}
+#main .form-new .box{
+    padding: 6px 5px;
+}
+#main .form-new .box label{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 0 10px;
+}
+#main .form-new .box input{
+    width: 100%;
+    padding: 8px 8px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: rgb(255, 0, 0);
+}
+#main .form-new .box .cbbOption
+{
+    font-size: 20px;
+    padding: 12px;
+    border-radius: 10px;
+}
+#main .form-new .notify{
+    padding: 5px 10px;
+    font-size: 15px;
+    color: red;
+}
+#main .form-new .box1{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+#main .form-new .box1 a{
+    text-decoration: none;
+}
+#main .form-new .box1 .btn{
+    padding: 6px 10px;
+    margin: 10px;
+    color: yellow;
+    background-color: red;
+    border-radius: 10px;
+}
+#main .form-new .box1 .btn:hover{
+    background-color: black;
+    color: yellow;
+    cursor: pointer;
+}
+
+#main .tb_permission{
+    padding: 10px 15px;
+}
+#main .tb_permission h1{
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+#main .tb_permission table{
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+#main .tb_permission table tr{
+    width: 100%;
+    text-align: center;
+    padding: 10px 5px;
+}
+#main .tb_permission table tr th{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid black;
+    padding: 10px 6px;
+}
+#main .tb_permission table tr td{
+    text-align: left;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid black;
+    padding: 10px 6px;
+}

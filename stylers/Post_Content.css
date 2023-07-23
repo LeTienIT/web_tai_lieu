@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#main{
+    background-color: #f7f7f7;
+}
+#main li{
+    list-style-type: none;
+}
+#main a{
+    text-decoration: none;
+}
+/* Phần header */
+#main #header{
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 255, 13);
+    
+}
+#main #header {
+    flex: 1 1 100%;
+    align-items: center;
+    gap: 10px;
+    flex-grow: 1;
+}
+#main #header i{
+    padding: 10px;
+    font-size: 50px;
+}
+#main #header h1{
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+#main .back_home{
+    margin-top: 68px;
+    padding: 16px 20px;
+}
+#main .back_home a{
+    padding: 10px;
+    background-color: rgba(44, 25, 218, 0.795);
+    text-align: center;
+    border-radius: 10px;
+}
+#main .back_home a:hover{
+    background-color: black;
+}
+#main .back_home a i{
+    padding: 5px 10px;
+    font-size: 20px;
+    color: rgb(53, 255, 2);
+}
+#main .back_home a span{
+    padding: 5px 12px;
+    font-size: 20px;
+    color: rgb(214, 238, 0);
+}
+
+#main .main_content{
+    padding: 10px 10%;
+    background-color: #f7f7f7;
+}
+#main .main_content .content{
+    padding: 10px;
+}
+#main .main_content .content .post_header{
+    font-size: 26px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 0;
+}
+#main .main_content .content .post_info{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    padding: 15px 0px;
+}
+#main .main_content .content .post_info .box{
+    padding: 5px 0px;
+    color: black;
+    font-size: 16px;
+}
+#main .main_content .content .post_info .box span{
+    color: green;
+    font-size: 16px;
+}
+#main .main_content .content .post_content .description {
+    font-size: 18px;
+    font-weight: bold;
+}
+#main .main_content .content .post_content .fck_detail {
+    margin-top: 10px;
+    padding: 10px 0;
+    background-color: #f7f7f7;
+}
+#main .main_content .content .post_content .Normal {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+#main .main_content .content .post_content .Image {
+    font-style: italic;
+    text-align: center;
+    padding: 2px 0 10px 0 ;
+}
+#main .main_content .content .post_content .fig-picture {
+    margin: 10px 0;
+}
+#main .main_content .content .post_content img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+}
+#main .main_content .content .post_content .figcaption {
+    font-size: 12px;
+    color: #888;
+}
+
+#main .main_content .sub_content .sub_content_heading{
+    width: 100%;
+    text-align: center;
+    padding: 1px;
+    color: black;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+#main .main_content .sub_content .sub_content_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+#main .main_content .sub_content .sub_content_main .box_sp{
+    display: flex;
+    justify-content: center;
+    width: 45%;
+    height: 75px;
+    padding: 5px;
+    border-bottom: .1px solid black;
+    margin-top: 10px;
+    padding: 10px 28px;
+}
+#main .main_content .sub_content .sub_content_main .box_sp_text {
+    width: 66%;
+    height: 44px;
+    word-wrap: break-word;
+    overflow: hidden;
+    position: relative; 
+    line-height: 1.3;
+    text-overflow: ellipsis
+}
+#main .main_content .sub_content .sub_content_main .box_sp .box_sp_text p {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+#main .main_content .sub_content .sub_content_main .box_sp .box_sp_img{
+    width: 30%;
+    max-height: 60px;
+    padding: 0 10px;
+}
+#main .main_content .sub_content .sub_content_main .box_sp .box_sp_img img{
+    background-color: #cccccc;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    height: 100%;
+    padding: 1px; 
+}
+#main .main_content .sub_content .sub_content_main .box_sp:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 6px 6px rgb(102, 100, 100);
+}
+
+#main .main_content .add_comment{
+    padding: 10px 15px;
+    width: 100%;
+}
+#main .main_content .add_comment textarea{
+    padding: 5px 10px;
+    font-size: 20px;
+    width: 100%;
+    border-radius: 10px;
+    overflow: auto;
+}
+#main .main_content .add_comment input{
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+#main .main_content .add_comment input:hover{
+    background-color: black;
+    color: white;
+}
+#main .main_content .sub_comment{
+    padding: 0 15px;
+    overflow: auto;
+}
+#main .main_content .sub_comment .box_comment{
+    padding: 2px 10px;
+    width: 100%;
+    height: 68px;
+    margin-top: 10px;
+    background-color: rgba(96, 240, 120, 0.699);
+    overflow: auto;
+    border-radius: 10px;
+}
+#main .main_content .sub_comment .box_comment .user_name{
+    padding: 0 0 10px 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600; 
+    overflow: auto;
+}
+#main .main_content .sub_comment .box_comment p{
+    padding: 0 0 0 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    overflow: auto;
+}
+
+   

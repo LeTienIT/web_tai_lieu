@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main .heading{
+    text-align: center;
+    padding: 10px;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    margin-top: 10px;
+    width: 100%;
+}
+.main .info_user,
+.main .check{
+    padding: 20px 10%;
+}
+.main .info_user h1,
+.main .check h1{
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.main .info_user .user_waiting_box,
+.main .check .user_waiting_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px;
+    width: 100%;
+    height: 80px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.main .info_user .user_waiting_box .userID,
+.main .check .user_waiting_box .userID{
+    flex: 1 1 18%;
+    padding: 10px 0;
+    border-right: .5px solid black;
+    text-align: center;
+}
+.main .info_user .user_waiting_box .userName,
+.main .check .user_waiting_box .userName{
+    flex: 1 1 18%;
+    padding: 10px 0;
+    border-right: .5px solid black;
+    text-align: center;
+}
+.main .info_user .user_waiting_box .userPhone,
+.main .check .user_waiting_box .userPhone{
+    flex: 1 1 14%;
+    padding: 10px 0;
+    border-right: .5px solid black;
+    text-align: center;
+}
+.main .info_user .user_waiting_box .userEmail,
+.main .check .user_waiting_box .userEmail{
+    flex: 1 1 26%;
+    padding: 10px 0;
+    border-right: .5px solid black;
+    text-align: center;
+}
+.main .info_user .user_waiting_box .userPermission,
+.main .check .user_waiting_box .userPermission{
+    flex: 1 1 5%;
+    padding: 10px 0;
+    text-align: center;
+}
+.main .check .output{
+    padding: 10px 10%;
+}
+.main .check .output .user_pass{
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px 15px;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.main .check span{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+}
+.main .check .output h2{
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    padding: 10px 0;
+}
+.main .check .output .box_control{
+    padding: 20px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.main .check .output .box_control .btn_option{
+    padding: 10px 8px;
+    background-color: rgb(255, 81, 0);
+    color: white;
+    text-decoration: none;
+    border-bottom: 10px;
+    border: .5px black solid;
+    border-radius: 10px;
+}
+.main .check .output .box_control .btn_option:hover{
+    background-color: white;
+    color: black;
+}
+

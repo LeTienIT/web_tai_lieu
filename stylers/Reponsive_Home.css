@@ -1,0 +1,286 @@
+@media(max-width: 1200px)
+{
+    #main #main_content .row_content .new_column .box .box_content .title {
+        padding: 1px;
+        height: 45px;
+        white-space: normal;
+        font-family: 'Times New Roman', Times, serif;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+@media(max-width: 992px)
+{
+    #main{
+        background-color: #383535;
+        /* margin: 0 5%; */
+        /* width: 1080px; */
+    }
+
+    /* Phần nội dung 1 */
+    #main #main_content .row_content{
+        width: 60%;
+    }
+    #main #main_content .row_content .column_main .column_body{
+        display: flex;
+        padding: 5px;
+        flex-wrap: wrap;
+    }
+    /* Box 1 */
+    #main #main_content .row_content .column_main .column_body .box1{
+        width: 100%;
+    }
+    #main #main_content .row_content .column_main .column_body .box2 {
+        width: 100%;
+        margin-top: 5px;
+    }
+    #main #main_content .row_content .column_main .column_body .box2 .box {
+        display: flex;
+        width: 100%;
+        height: 65px;
+        padding: 5px;
+        border-bottom: .1px solid black;
+        margin-top: 5px;
+    }
+    #main #main_content .row_content .column_main .column_body .box2 .box .box2_text {
+        width: 66%;
+        max-height: 45px;
+        word-wrap: break-word;
+        overflow: hidden;
+        position: relative; 
+        line-height: 1.3;
+        text-overflow: ellipsis
+    }
+    #main #main_content .row_content .column_main .column_body .box2 .box .box2_img{
+        width: 30%;
+        max-height: 50px;
+        padding: 0 26px;
+    }
+    /* # */
+    
+    #main #main_content .row_content .new_column .box .box_content .title {
+        padding: 1px;
+        height: 40px;
+        white-space: normal;
+        font-family: 'Times New Roman', Times, serif;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    /* Phần nội dung 2 */
+    #main #main_content .row_sp{
+        width: 40%;
+        margin-top: 5px;
+    }
+    
+}
+@media(max-width: 768px)
+{
+    #main{
+        background-color: #383535;
+        /* margin: 0 5%; */
+        /* width: 1080px; */
+    }
+    #main #header i{
+        padding: 5px;
+        font-size: 28px;
+    }
+    #main #header h1{
+        font-weight: 300;
+        color: rgb(0, 0, 0);
+        font-family: 'Times New Roman', Times, serif;
+        text-transform: uppercase;
+        font-size: 28px;
+    }
+    
+    /* Phần menu */
+    #main #navigation_menu a{
+        text-transform: uppercase;
+        color: white;
+        white-space: nowrap;
+        font-size: 16px;
+    }
+    #main #navigation_menu .sub_menu_header{
+        font-size: 22px;
+        color: rgb(0, 38, 255);
+        text-transform: uppercase;
+        font-family: 'Times New Roman', Times, serif;
+        white-space: nowrap;
+    }
+    #main #navigation_menu ul .sub_menu,
+    #main #navigation_menu ul .sub_menu_header{
+        padding: 5px 10px;
+    }
+
+    /* Phần tìm kiếm */
+    #main #navigation_select{
+        width: 100%;
+        height: 50px;
+        background-color: #ece8f0;
+        /* display: flex;
+        align-items: center;
+        justify-content: space-between;
+        overflow: auto; */
+    }
+    #main #navigation_select .time{
+        /* padding: 0 20px; */
+        display: none;
+    }
+    #main #navigation_select .sub_search{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        gap: 10px;
+        padding: 0 10px;
+    }
+    #main #navigation_select .sub_search .cbb_Option{
+        padding: 5px 12px;
+        flex: 1 1 80%;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+    #main #navigation_select .sub_search input{
+        background-color: rgb(0, 255, 55);
+        color: black;
+        padding: 5px 10px;
+        border-radius: 10px;
+    }
+
+    /* Phần nội dung */
+    #main #main_content{
+        display: flex;
+        background-color: white;
+        flex-wrap: wrap;
+    }
+    /* 1 */
+    #main #main_content .row_content{
+        width: 100%;
+    }
+    #main #main_content .row_content .column_main .column_body{
+        display: flex;
+        padding: 5px;
+        flex-wrap: wrap;
+    }
+    #main #main_content .row_content .column_main .column_body .box1{
+        width: 100%;
+    }
+    #main #main_content .row_content .column_main .column_body .box2 {
+        width: 100%;
+        margin-top: 5px;
+    }
+    #main #main_content .row_content .column_main .column_body .box2 .box {
+        display: flex;
+        width: 100%;
+        height: 65px;
+        padding: 5px;
+        border-bottom: .1px solid black;
+        margin-top: 5px;
+    }
+    #main #main_content .row_content .column_main .column_body .box2 .box .box2_text {
+        width: 66%;
+        max-height: 45px;
+        word-wrap: break-word;
+        overflow: hidden;
+        position: relative; 
+        line-height: 1.3;
+        text-overflow: ellipsis
+    }
+    #main #main_content .row_content .column_main .column_body .box2 .box .box2_img{
+        width: 30%;
+        max-height: 50px;
+        padding: 0 26px;
+    }
+
+    /* Các ô tiếp */
+    #main #main_content .row_content .new_column .box{
+        margin-top: 10px;
+        padding: 5px 10px;
+        width: 100%;
+        height: 75px;
+        display: flex;
+        justify-content: center;
+        border-bottom: 1px solid black;
+    } 
+    #main #main_content .row_content .new_column .box .box_content .title{
+        padding: 1px;
+        height: 44px;
+        white-space: normal;
+        font-family: 'Times New Roman', Times, serif;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    #main #main_content .row_content .new_column .box .box_content .title h3{
+        height: 100%;
+        color: black;
+        font-size: 18px;
+    }
+
+    /* 2 */
+    #main #main_content .row_sp{
+        width: 100%;
+        margin-top: 5px;
+    }
+    #main #main_content .row_sp .sp_column_new .box_sp{
+        display: flex;
+        width: 100%;
+        height: 60px;
+        padding: 5px;
+        border-bottom: .1px solid black;
+        margin-top: 10px;
+    }
+    #main #main_content .row_sp .sp_column_new .box_sp .box_sp_text {
+        width: 66%;
+        height: 45px;
+        word-wrap: break-word;
+        overflow: hidden;
+        position: relative; 
+        line-height: 1.3;
+        text-overflow: ellipsis
+    }
+    #main #main_content .row_sp .sp_column_new .box_sp .box_sp_img{
+        width: 30%;
+        max-height: 40px;
+        padding: 0 26px;
+    }
+}
+@media(max-width: 340px)
+{
+    #main #header{
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(0, 255, 13);
+        
+    }
+    #main #header i{
+        padding: 1px;
+        font-size: 20px;
+    }
+    #main #header h1{
+        font-weight: 300;
+        color: rgb(0, 0, 0);
+        font-family: 'Times New Roman', Times, serif;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+
+
+    #main #navigation_menu a{
+        text-transform: uppercase;
+        color: white;
+        white-space: nowrap;
+        font-size: 14px;
+    }
+    #main #navigation_menu .sub_menu_header{
+        font-size: 18px;
+        color: rgb(0, 38, 255);
+        text-transform: uppercase;
+        font-family: 'Times New Roman', Times, serif;
+        white-space: nowrap;
+    }
+    #main #navigation_menu ul .sub_menu,
+    #main #navigation_menu ul .sub_menu_header{
+        padding: 2px 6px;
+    }
+}

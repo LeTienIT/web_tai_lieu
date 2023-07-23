@@ -1,0 +1,444 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main{
+    background-color: #383535;
+    margin: 0 5%;
+    /* width: 1080px; */
+}
+#main li{
+    list-style-type: none;
+}
+#main a{
+    text-decoration: none;
+}
+
+
+/* Phần header */
+#main #header{
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 255, 13);
+    
+}
+#main #header {
+    flex: 1 1 100%;
+    align-items: center;
+    gap: 10px;
+    flex-grow: 1;
+}
+#main #header i{
+    padding: 10px;
+    font-size: 50px;
+}
+#main #header h1{
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+/* header */
+#main #navigation_menu{
+    width: 100%;
+    height: 50px;
+    background-color: #ff6600;
+    display: flex;
+    align-items: center;
+    overflow: auto;
+}
+#main #navigation_menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2px;
+}
+#main #navigation_menu a{
+    text-transform: uppercase;
+    color: white;
+    white-space: nowrap;
+}
+#main #navigation_menu .sub_menu_header{
+    font-size: 26px;
+    color: rgb(0, 38, 255);
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    white-space: nowrap;
+}
+#main #navigation_menu ul .sub_menu,
+#main #navigation_menu ul .sub_menu_header{
+    padding: 8px 12px;
+}
+#main #navigation_menu ul .sub_menu:hover{
+    background-color: black;
+}
+
+/* Phần tìm kiếm */
+#main #navigation_select{
+    width: 100%;
+    height: 50px;
+    background-color: #ece8f0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: auto;
+}
+#main #navigation_select .time{
+    padding: 0 20px;
+}
+#main #navigation_select .time p{
+    color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#main #navigation_select .sub_search{
+    display: flex;
+    width: 300px;
+    align-items: center;
+    gap: 10px;
+    padding: 0 10px;
+}
+#main #navigation_select .sub_search .cbb_Option{
+    padding: 5px 6px;
+    width: 100%;
+}
+#main #navigation_select .sub_search input{
+    background-color: rgb(0, 255, 55);
+    color: black;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+#main #navigation_select .sub_search input:hover{
+    cursor: pointer;
+    background-color: rgb(0, 4, 255);
+}
+
+/* Phần nội dung chính */
+#main #main_content{
+    display: flex;
+    background-color: white;
+}
+.heading_column{
+    width: 100%;
+    padding: 0;
+    background-color: orange;
+    
+}
+.heading_column H3{
+    font-size: 16px;
+    line-height: 21px;
+    line-height: auto;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    padding: 0 0 0 10px;
+}
+
+/* Phần bên trái */
+#main #main_content .row_content{
+    width: 70%;
+}
+
+/* Ô chính */
+#main #main_content .row_content .column_main{
+    padding: 0px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 0.1px solid black;
+}
+/* Phần chứa 2 nửa trái phải dòng */
+#main #main_content .row_content .column_main .column_body{
+    display: flex;
+    padding: 5px;
+}
+
+/* BOX 1 */
+#main #main_content .row_content .column_main .column_body .box1{
+    width: 60%;
+}
+#main #main_content .row_content .column_main .column_body .box1 .box_img{
+    width: 100%;
+    max-height: 288px;
+}
+#main #main_content .row_content .column_main .column_body .box1 .box_img img{
+    background-color: #cccccc;
+    border: none;
+    border-radius: 3px;
+    padding: 1px;
+    object-fit: contain;
+    max-height: 288px;
+    width: 100%
+}
+#main #main_content .row_content .column_main .column_body .box1 .box_text{
+    padding: 5px 0 0 0;
+}
+#main #main_content .row_content .column_main .column_body .box1 .box_text .heading{
+    font-size: 18px;
+    color: black;
+    font-family: inherit;;
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+}
+#main #main_content .row_content .column_main .column_body .box1 .box_text .sub_heading{
+    font-size: 16px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-overflow: ellipsis;
+}
+#main #main_content .row_content .column_main .column_body .box1:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 6px 6px rgb(102, 100, 100);
+}
+
+/* BOX 2 */
+#main #main_content .row_content .column_main .column_body .box2 {
+    width: 40%;
+    margin-left: 5px;
+}
+
+#main #main_content .row_content .column_main .column_body .box2 .box {
+    display: flex;
+    width: 100%;
+    height: 55px;
+    padding: 5px;
+    border-bottom: .1px solid black;
+    margin-top: 5px;
+}
+
+#main #main_content .row_content .column_main .column_body .box2 .box .box2_text {
+    width: 66%;
+    max-height: 40px;
+    word-wrap: break-word;
+    overflow: hidden;
+    position: relative; 
+    line-height: 1.3;
+    text-overflow: ellipsis
+}
+#main #main_content .row_content .column_main .column_body .box2 .box .box2_text p {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+#main #main_content .row_content .column_main .column_body .box2 .box .box2_img{
+    width: 33%;
+    max-height: 40px;
+    padding: 0 10px;
+}
+#main #main_content .row_content .column_main .column_body .box2 .box .box2_img img{
+    background-color: #cccccc;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    height: 100%;
+    padding: 1px; 
+}
+#main #main_content .row_content .column_main .column_body .box2 .box:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 6px 6px rgb(102, 100, 100);
+}
+#main #main_content .row_content .column_main .column_body .box2 .box:last-child{
+    border-bottom: none;
+}
+
+/* Ô thứ 2- 3 */
+#main #main_content .row_content .new_column{
+    width: 100%;
+    padding: 0px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 0.1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#main #main_content .row_content .new_column .box{
+    margin-top: 10px;
+    padding: 5px 10px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}  
+#main #main_content .row_content .new_column .box .img{
+    width: 30%;
+    height: 100%;
+    flex-grow: 1;
+    padding: 5px;
+}
+#main #main_content .row_content .new_column .box:last-child{
+    border-bottom: none;
+}
+#main #main_content .row_content .new_column .box .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+#main #main_content .row_content .new_column .box:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 6px 6px rgb(102, 100, 100);
+}
+#main #main_content .row_content .new_column .box .box_content{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#main #main_content .row_content .new_column .box .box_content .title{
+    padding: 1px;
+    height: 60px;
+    white-space: normal;
+    font-family: 'Times New Roman', Times, serif;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#main #main_content .row_content .new_column .box .box_content .title h3{
+    height: 100%;
+    color: black;
+    font-size: 18px;
+}
+#main #main_content .row_content .new_column .box .box_content .userName h3{
+    height: 100%;
+    color: black;
+    font-size: 14px;
+}
+#main #main_content .row_content .new_column .box .box_content .userName{
+    color: rgb(0, 0, 0);
+    padding: 1px;
+    width: 100%;
+    overflow: hidden;
+    
+}
+#main #main_content .row_content .new_column .box .box_content .userName span{
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+/* Phần phụ bên phải */
+#main #main_content .row_sp{
+    width: 30%;
+    margin-left: 5px;
+}
+
+/* Các ô */
+#main #main_content .row_sp .sp_column_info,
+#main #main_content .row_sp .sp_column_new{
+    margin-top: 10px;
+    padding: 1px;
+    border: .1px solid black;
+    border-radius: 5px;
+}
+#main #main_content .row_sp .info{
+    padding: 5px 2px 2px 2px;
+    font-size: 18px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+#main #main_content .row_sp .sp_column_new .box_sp:last-child{
+    border-bottom: none;
+}
+
+/* Tin hot */
+#main #main_content .row_sp .sp_column_new .box_sp{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    padding: 5px;
+    border-bottom: .1px solid black;
+    margin-top: 10px;
+}
+#main #main_content .row_sp .sp_column_new .box_sp .box_sp_text {
+    width: 66%;
+    height: 46px;
+    word-wrap: break-word;
+    overflow: hidden;
+    position: relative; 
+    line-height: 1.3;
+    text-overflow: ellipsis
+}
+#main #main_content .row_sp .sp_column_new .box_sp .box_sp_text p {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+#main #main_content .row_sp .sp_column_new .box_sp .box_sp_img{
+    width: 33%;
+    max-height: 40px;
+    padding: 0 10px;
+}
+#main #main_content .row_sp .sp_column_new .box_sp .box_sp_img img{
+    background-color: #cccccc;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    height: 100%;
+    padding: 1px; 
+    object-fit: contain;
+}
+#main #main_content .row_sp .sp_column_new .box_sp:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 6px 6px rgb(102, 100, 100);
+}
+
+/* Chủ đề */
+#main #main_content .row_sp .sp_column_new .box_sp_title{
+    margin-top: 10px;
+    border-bottom: .1px solid black;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+#main #main_content .row_sp .sp_column_new .box_sp_title a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 600;
+}
+#main #main_content .row_sp .sp_column_new .box_sp_title:last-child{
+    border-bottom: none;
+}
+#main #main_content .row_sp .sp_column_new .box_sp_title:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 6px 6px rgb(102, 100, 100);
+}
+/* Liên hệ */
+#main #main_content .row_sp .sp_column_new .box_sp_contact{
+    margin-top: 5px;
+    border-bottom: .1px solid black;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+#main #main_content .row_sp .sp_column_new .box_sp_contact i{
+    display: inline-block;
+    padding: 5px;
+    color: black;
+}
+#main #main_content .row_sp .sp_column_new .box_sp_contact p{
+    display: inline-block;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+    font-size: 16px;
+}
+.contact{
+    padding: 5px 10px;
+}
+.contact:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 6px 6px rgb(80, 36, 36);
+}
+#main #main_content .row_sp .sp_column_new .box_sp_contact:last-child{
+    border-bottom: none;
+}
+

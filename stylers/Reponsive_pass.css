@@ -1,0 +1,87 @@
+@media(max-width: 768px)
+{
+    .main .info_user .user_waiting_box,
+    .main .check .user_waiting_box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 5px;
+        width: 100%;
+        height: auto;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin-top: 10px;
+        flex-wrap: wrap;
+    }
+    .main .info_user .user_waiting_box .userID,
+    .main .check .user_waiting_box .userID{
+        flex: 1 1 100%;
+        padding: 10px 0;
+        border-bottom: .5px solid black;
+        text-align: center;
+    }
+    .main .info_user .user_waiting_box .userName,
+    .main .check .user_waiting_box .userName{
+        flex: 1 1 100%;
+        padding: 10px 0;
+        border-bottom: .5px solid black;
+        text-align: center;
+    }
+    .main .info_user .user_waiting_box .userPhone,
+    .main .check .user_waiting_box .userPhone{
+        flex: 1 1 100%;
+        padding: 10px 0;
+        border-bottom: .5px solid black;
+        text-align: center;
+    }
+    .main .info_user .user_waiting_box .userEmail,
+    .main .check .user_waiting_box .userEmail{
+        flex: 1 1 100%;
+        padding: 10px 0;
+        border-bottom: .5px solid black;
+        text-align: center;
+    }
+    .main .info_user .user_waiting_box .userPermission,
+    .main .check .user_waiting_box .userPermission{
+        flex: 1 1 100%;
+        padding: 10px 0;
+        text-align: center;
+    }
+    .main .check .output{
+        padding: 10px 10%;
+    }
+    .main .check .output .user_pass{
+        margin-top: 10px;
+        text-align: center;
+        padding: 10px 15px;
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .main .check span{
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+        color: red;
+    }
+    .main .check .output h2{
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 600;
+        padding: 10px 0;
+    }
+    .main .check .output .box_control{
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+    }
+    .main .check .output .box_control .btn_option{
+        padding: 5px 8px;
+        background-color: rgb(255, 81, 0);
+        color: white;
+        text-decoration: none;
+        border-bottom: 10px;
+        border: .5px black solid;
+        border-radius: 10px;
+    }
+}
